@@ -1,0 +1,109 @@
+
+/* ID Selector */
+#title {
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+
+
+#tourism {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Class Selectors */
+.container {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #336;
+  color: white;
+  padding: 20px;
+}
+h1 {
+	color: black;
+	text-align: center;
+	font-size: 25pt;
+}
+
+h2 {
+	color: olive;
+	font-size: 17pt;
+	line-height: 13pt;
+	text-align: center;
+}
+
+h3 {
+	color: navy;
+	font-size: 15pt;
+}
+
+.styled-image {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #000;
+  max-width: 100%;
+}
+
+
+p {
+	text-align: justify;
+	font-size: 13pt;
+	font-family: Roboto, sans-serif;
+	color: black;
+}
+.image-container {
+  display: flex;
+  justify-content: space-between;
+}
+.image-container2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-container img {
+  width: 45%; /* Adjust the width as needed */
+}
+
+body {
+	border: 1px solid black;
+	padding: 20px;
+	background-image: linear-gradient(lightblue, LavenderBlush, white);
+	background-repeat: no-repeat;
+	background-size: auto;
+	scroll-behavior: smooth; /* Add smooth scrolling behavior to the page */ 
+}
+/* Style the navigation bar */
+nav {
+  background-color: #333; /* Set the background color */
+  color: #ff0; /* Set the text color */
+}
+
+/* Style the list items */
+nav ul {
+  list-style-type: none; /* Remove the default bullet points */
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+nav li {
+  float: left; /* Display the list items horizontally */
+}
+
+/* Style the links */
+nav a {
+  display: block; /* Convert the links to block elements */
+  padding: 16px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Change the link color on hover */
+nav a:hover {
+  background-color: #555;
+}
+
