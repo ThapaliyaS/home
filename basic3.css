@@ -1,0 +1,28 @@
+ body {
+      font-family: Arial, sans-serif;
+}
+    
+.container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+}
+
+h1 {
+      text-align: center;
+}
+    
+h2 {
+      margin-top: 20px;
+}
+    
+ul {
+      padding-left: 20px;
+}
+    
+footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 10px 0;
+      background-color: LightBlue;
+}

@@ -1,0 +1,22 @@
+body {
+	background-color: grey;
+	color: black;
+	font-family: sans-serif;
+	font-size: 14px;
+	text-align: right;
+}
+h1 {
+	text-align: center;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.image img {
+  max-width: 100%;
+  max-height: 100%;
+}
